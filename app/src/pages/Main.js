@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     padding: theme.spacing(1),
     margin:0,
-    height: "100vh",
+    height: "calc(100vh - 35px)",
     [theme.breakpoints.down("md")]: {
       flexDirection: "column",
     },

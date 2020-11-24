@@ -7,12 +7,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     minHeight: "250px",
+    width: "100%",
     [theme.breakpoints.down("md")]: {
       paddingTop: theme.spacing(1),
-      width: "100%",
-    },
-    [theme.breakpoints.up("lg")]: {
-      width: "100%",
     },
   },
 }));
