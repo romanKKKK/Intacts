@@ -4,7 +4,9 @@
   "description": "Video/Chat React app ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./app && npm run build",
+    "deploy": "echo \"Start deploing\" && cd ./app && aws s3 sync build/ s3://intacs-staging --acl public-read && echo \"Deploy ended\""
   },
   "repository": {
     "type": "git",
