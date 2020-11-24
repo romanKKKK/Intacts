@@ -29,7 +29,7 @@ const ChatBox = () => {
       <iframe
         title="Chat"
         className={classes.content}
-        src="https://www6.cbox.ws/box/?boxid=822052&boxtag=dATRC5"
+        src="https://my.cbox.ws/upwok"
       />
     </Box>
   );
