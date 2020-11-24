@@ -19,7 +19,7 @@ const VideoBox = () => {
   return (
     <Box className={classes.root}>
       <ReactHlsPlayer
-        url="https://streaming.intacs.com/clients/majestikmuzikradio/v/video.html"
+        url="https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8"
         autoplay={false}
         controls={true}
         width="100%"
