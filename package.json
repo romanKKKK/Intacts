@@ -1,0 +1,19 @@
+{
+  "name": "intacts",
+  "version": "1.0.0",
+  "description": "Video/Chat React app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanKKKK/intacts.git"
+  },
+  "author": "Roman Kameniev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanKKKK/intacts/issues"
+  },
+  "homepage": "https://github.com/romanKKKK/intacts#readme"
+}
