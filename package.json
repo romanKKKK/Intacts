@@ -17,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/romanKKKK/intacts/issues"
   },
-  "homepage": "https://github.com/romanKKKK/intacts#readme"
+  "homepage": "https://github.com/romanKKKK/intacts#readme",
+  "dependencies": {
+  }
 }
