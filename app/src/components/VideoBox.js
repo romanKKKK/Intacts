@@ -8,9 +8,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     minHeight: "250px",
     width: "100%",
-    [theme.breakpoints.down("md")]: {
-      paddingTop: theme.spacing(1),
-    },
+    backgroundColor:'#000000',
   },
 }));
 
@@ -19,11 +17,10 @@ const VideoBox = () => {
   return (
     <Box className={classes.root}>
       <ReactHlsPlayer
+        className={classes.root}
         url="https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8"
-        autoplay={false}
+        autoplay={true}
         controls={true}
-        width="100%"
-        height="auto"
       />
     </Box>
   );

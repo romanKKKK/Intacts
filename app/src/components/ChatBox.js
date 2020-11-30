@@ -8,12 +8,10 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     width: "100%",
     [theme.breakpoints.down("md")]: {
-      paddingTop: theme.spacing(1),
       width:'100%'
     },
     [theme.breakpoints.up("lg")]:{
       maxWidth:'500px',
-      width:'100%'
     }
   },
   content: {
