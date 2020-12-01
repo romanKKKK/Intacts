@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-dev": "echo\"Start building\" && npm run build && echo \"Start deploing on dev s3\" && cd ./app && aws s3 sync build/ s3://intacs-staging --acl public-read && echo \"Deploy dev ended\"",
+    "deploy-prod": "echo\"Start building\" && npm run build && echo \"Start deploing on prod s3\" && cd ./app && aws s3 sync build/ s3://intacs-prod --acl public-read && echo \"Deploy prod ended\""
   },
   "eslintConfig": {
     "extends": [
