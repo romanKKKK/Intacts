@@ -4,7 +4,10 @@
   "description": "Video/Chat React app ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./app && npm run build",
+    "deploy-dev": "echo \"Start deploing dev\" && cd ./app && npm run deploy-dev",
+    "deploy-prod": "echo \"Start deploing prod\" && cd ./app && npm run deploy-prod"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,7 @@
   "bugs": {
     "url": "https://github.com/romanKKKK/intacts/issues"
   },
-  "homepage": "https://github.com/romanKKKK/intacts#readme"
+  "homepage": "https://github.com/romanKKKK/intacts#readme",
+  "dependencies": {
+  }
 }
